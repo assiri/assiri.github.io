@@ -1,0 +1,102 @@
+html, body {
+  margin: 0; }
+
+a.button {
+  background: #c8c8fa;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2px 5px; }
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  background-image: url(http://i.imgur.com/rxUo92Y.gif);
+  background-position: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .landing .buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%; }
+    .landing .buttons a {
+      margin: 2em;
+      display: block;
+      text-align: center;
+      padding: 2em;
+      font-size: 2em;
+      font-family: 'Antic', sans-serif; }
+
+.thought-form {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  background-image: url(http://i.imgur.com/563WnlA.gif);
+  background-position: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  .thought-form .wrapper {
+    width: 40%;
+    margin: 0 auto 0; }
+    .thought-form .wrapper form > * {
+      margin-top: 5%; }
+    .thought-form .wrapper input[type="text"] {
+      width: 100%;
+      height: 100px;
+      line-height: 100px;
+      font-size: 40px;
+      background: transparent;
+      color: white;
+      border: 0;
+      outline: 0;
+      font-family: 'Covered By Your Grace', cursive; }
+    .thought-form .wrapper .actions {
+      margin-top: 10px;
+      text-align: right;
+      font-family: 'Antic', sans-serif; }
+      .thought-form .wrapper .actions a {
+        color: white;
+        font-size: 2em;
+        margin-top: 1em; }
+
+h1 {
+  font-family: 'Antic', sans-serif; }
+  h1 a {
+    float: right; }
+
+.thoughts {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  background-image: url(http://i.imgur.com/tKgZru8.gif);
+  background-position: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .thoughts .wrapper {
+    padding-top: 1em;
+    width: 80%;
+    margin: 0 auto 0; }
+    .thoughts .wrapper .thought {
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 10px;
+      max-height: 400px;
+      overflow: auto;
+      padding: 10px;
+      font-family: 'Covered By Your Grace', cursive;
+      font-size: 1.4em;
+      background: rgba(255, 255, 255, 0.4); }
+
+/*# sourceMappingURL=writing.css.map */
